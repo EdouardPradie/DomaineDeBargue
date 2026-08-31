@@ -1,0 +1,437 @@
+/* Domaine de Bargue - Responsive Design */
+
+/* ============================================
+   Tablet Breakpoint (768px and below)
+   ============================================ */
+@media (max-width: 768px) {
+    :root {
+        --font-size-3xl: 36px;
+        --font-size-2xl: 28px;
+        --font-size-xl: 20px;
+        --spacing-2xl: 32px;
+        --spacing-3xl: 48px;
+    }
+
+    /* Navigation */
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height var(--transition-base);
+        box-shadow: var(--shadow-md);
+    }
+
+    .nav-menu.active {
+        max-height: 400px;
+    }
+
+    .nav-menu li {
+        border-bottom: 1px solid var(--color-sky-blue);
+    }
+
+    .nav-link {
+        display: block;
+        padding: var(--spacing-md);
+        border: none;
+    }
+
+    .navbar-container {
+        flex-wrap: wrap;
+        gap: var(--spacing-lg);
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 70vh;
+        min-height: 500px;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 6vw, 3rem);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-lg);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /* About Section */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .image-placeholder {
+        min-height: 400px;
+    }
+
+    /* Contact Section */
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    /* Products Grid */
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Gallery Grid */
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .gallery-item {
+        aspect-ratio: 1;
+    }
+
+    /* Testimonials */
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: var(--font-size-2xl);
+    }
+}
+
+/* ============================================
+   Mobile Breakpoint (480px and below)
+   ============================================ */
+@media (max-width: 480px) {
+    :root {
+        --font-size-3xl: 28px;
+        --font-size-2xl: 24px;
+        --font-size-xl: 18px;
+        --font-size-lg: 16px;
+        --spacing-lg: 16px;
+        --spacing-xl: 20px;
+        --spacing-2xl: 24px;
+        --spacing-3xl: 32px;
+    }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    /* Header */
+    .navbar-container {
+        padding: 0 var(--spacing-md);
+    }
+
+    .logo-text {
+        font-size: var(--font-size-lg);
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 60vh;
+        min-height: 400px;
+        padding: var(--spacing-lg) 0;
+    }
+
+    .hero-title {
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
+        margin-bottom: var(--spacing-md);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        padding: var(--spacing-md) var(--spacing-lg);
+        font-size: var(--font-size-base);
+        width: 100%;
+    }
+
+    /* Section Padding */
+    .about,
+    .products,
+    .gallery,
+    .testimonials,
+    .contact {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .section-title {
+        font-size: var(--font-size-2xl);
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    /* About */
+    .about-text h3 {
+        font-size: var(--font-size-lg);
+    }
+
+    .image-placeholder {
+        min-height: 300px;
+    }
+
+    /* Products */
+    .product-card {
+        padding: var(--spacing-lg);
+    }
+
+    .product-icon {
+        font-size: 2.5rem;
+    }
+
+    .product-card h3 {
+        font-size: var(--font-size-lg);
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: var(--spacing-md);
+    }
+
+    .gallery-overlay {
+        font-size: var(--font-size-sm);
+        padding: var(--spacing-md);
+    }
+
+    /* Contact */
+    .contact-form {
+        gap: var(--spacing-md);
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 16px; /* Prevent zoom on iOS */
+    }
+
+    .contact-info {
+        gap: var(--spacing-lg);
+    }
+
+    .info-item {
+        text-align: center;
+    }
+
+    .info-item h3 {
+        font-size: var(--font-size-lg);
+    }
+
+    .info-item p {
+        font-size: var(--font-size-sm);
+    }
+
+    /* Footer */
+    .footer {
+        padding: var(--spacing-2xl) 0 var(--spacing-lg);
+    }
+
+    .footer-section h4 {
+        font-size: var(--font-size-lg);
+        margin-bottom: var(--spacing-md);
+    }
+
+    .footer-section p {
+        font-size: var(--font-size-sm);
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+        padding-top: var(--spacing-lg);
+    }
+
+    .social-links {
+        justify-content: center;
+        gap: var(--spacing-md);
+    }
+
+    .social-links a {
+        width: 36px;
+        height: 36px;
+        font-size: var(--font-size-sm);
+    }
+
+    /* Testimonials */
+    .testimonial-card {
+        padding: var(--spacing-lg);
+    }
+
+    .testimonial-text {
+        font-size: var(--font-size-sm);
+    }
+
+    /* Remove hover effects on mobile for better touch experience */
+    .gallery-item:hover .gallery-overlay {
+        transform: translateY(0);
+    }
+
+    .product-card:hover {
+        transform: none;
+    }
+}
+
+/* ============================================
+   Large Desktop (1400px and above)
+   ============================================ */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1300px;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ============================================
+   Touch Device Optimizations
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+    .nav-link:hover {
+        border-bottom-color: transparent;
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover {
+        transform: none;
+    }
+
+    .product-card:hover {
+        transform: none;
+        box-shadow: var(--shadow-md);
+    }
+
+    .card-link:hover {
+        transform: none;
+    }
+
+    .gallery-overlay {
+        transform: translateY(0);
+    }
+
+    .social-links a:hover {
+        transform: none;
+    }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+    .header,
+    .hero-buttons,
+    .contact-form,
+    .menu-toggle {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    .btn {
+        border: 1px solid black;
+    }
+}
+
+/* ============================================
+   Accessibility - Prefers Reduced Motion
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ============================================
+   High Contrast Mode
+   ============================================ */
+@media (prefers-contrast: more) {
+    :root {
+        --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.3);
+        --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-link {
+        font-weight: 700;
+    }
+
+    .btn {
+        font-weight: 700;
+        border-width: 2px;
+    }
+}
+
+/* ============================================
+   Dark Mode Support (Optional)
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #f0f0f0;
+    }
+
+    .section-title {
+        color: var(--color-off-white);
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #0a1420 0%, #0d2a52 100%);
+    }
+
+    .product-card,
+    .testimonial-card,
+    .about-content {
+        background-color: #2a2a2a;
+        color: #f0f0f0;
+    }
+
+    .footer {
+        background-color: #0a0a0a;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        background-color: #3a3a3a;
+        color: #f0f0f0;
+        border-color: var(--color-navy);
+    }
+}
