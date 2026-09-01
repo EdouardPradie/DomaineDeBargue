@@ -400,39 +400,3 @@
         border-width: 2px;
     }
 }
-
-/* ============================================
-   Dark Mode Support (Optional)
-   ============================================ */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1a1a1a;
-        color: #f0f0f0;
-    }
-
-    .section-title {
-        color: var(--color-off-white);
-    }
-
-    .hero {
-        background: linear-gradient(135deg, #0a1420 0%, #0d2a52 100%);
-    }
-
-    .product-card,
-    .testimonial-card,
-    .about-content {
-        background-color: #2a2a2a;
-        color: #f0f0f0;
-    }
-
-    .footer {
-        background-color: #0a0a0a;
-    }
-
-    .form-group input,
-    .form-group textarea {
-        background-color: #3a3a3a;
-        color: #f0f0f0;
-        border-color: var(--color-navy);
-    }
-}

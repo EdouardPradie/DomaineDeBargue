@@ -9,7 +9,7 @@
     <title>Domaine de Bargues - Équitation et Pension pour Chevaux</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='Arial' fill='%23ee297a'>🐴</text></svg>">
+    <link rel="icon" type="image/webp" href="asset/logo.webp">
     
     <!-- Google Fonts - Bubblegum -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,8 +25,9 @@
         <nav class="navbar">
             <div class="navbar-container">
                 <div class="logo">
-                    <a href="#home">
-                        <span class="logo-text">🐴 Domaine de Bargues</span>
+                    <a class="header-title" href="#home">
+                        <img src="asset/logo.webp" alt="Domaine de Bargues Logo" class="logo-img">
+                        <span class="logo-text"> Domaine de Bargues</span>
                     </a>
                 </div>
                 <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -39,7 +40,6 @@
                     <li><a href="#about" class="nav-link">À Propos</a></li>
                     <li><a href="#products" class="nav-link">Services</a></li>
                     <li><a href="#gallery" class="nav-link">Galerie</a></li>
-                    <li><a href="#testimonials" class="nav-link">Témoignages</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -84,41 +84,8 @@
                 </div>
                 <div class="about-image">
                     <div class="image-placeholder">
-                        <img src="images/horses.jpg" alt="Domaine de Bargues Équitation" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%2351a3cf%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2230%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23f7fcff%22 font-family=%22Fredoka%22%3EChevaux%3C/text%3E%3C/svg%3E'">
+                        <img src="asset/IMG_4964.webp" alt="Domaine de Bargues Équitation" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%2351a3cf%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2230%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23f7fcff%22 font-family=%22Fredoka%22%3EChevaux%3C/text%3E%3C/svg%3E'">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products & Services Section -->
-    <section id="products" class="products">
-        <div class="container">
-            <h2 class="section-title">Nos Services</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-icon">🐴</div>
-                    <h3>Pension Chevaux</h3>
-                    <p>Pension pour chevaux avec soins de qualité, paddocks et boxes spacieux, fourrage premium et suivi vétérinaire régulier.</p>
-                    <a href="#contact" class="card-link">En Savoir Plus →</a>
-                </div>
-                <div class="product-card">
-                    <div class="product-icon">🏇</div>
-                    <h3>Leçons d'Équitation</h3>
-                    <p>Cours collectifs ou individuels pour tous les niveaux, de l'initiation au perfectionnement en CSO, CCE ou dressage.</p>
-                    <a href="#contact" class="card-link">En Savoir Plus →</a>
-                </div>
-                <div class="product-card">
-                    <div class="product-icon">📅</div>
-                    <h3>Stages & Formations</h3>
-                    <p>Stages intensifs pendant les vacances scolaires et formations spécialisées avec des instructeurs expérimentés.</p>
-                    <a href="#contact" class="card-link">En Savoir Plus →</a>
-                </div>
-                <div class="product-card">
-                    <div class="product-icon">🏆</div>
-                    <h3>Concours Équestres</h3>
-                    <p>Concours régulièrement organisés au Domaine : CSO, dressage, cross, et compétitions clubs pour tous les niveaux.</p>
-                    <a href="#contact" class="card-link">En Savoir Plus →</a>
                 </div>
             </div>
         </div>
@@ -157,31 +124,34 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <!-- Products & Services Section -->
+    <section id="products" class="products">
         <div class="container">
-            <h2 class="section-title">Témoignages</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">
-                        "Excellent centre équestre ! La qualité de l'enseignement et les installations sont impeccables. Mon cheval s'y plaît beaucoup."
-                    </p>
-                    <p class="testimonial-author">— Catherine & Storm, Loire Valley</p>
+            <h2 class="section-title">Nos Services</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">🐴</div>
+                    <h3>Pension Chevaux</h3>
+                    <p>Pension pour chevaux avec soins de qualité, paddocks et boxes spacieux, fourrage premium et suivi vétérinaire régulier.</p>
+                    <a href="#contact" class="card-link">En Savoir Plus →</a>
                 </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">
-                        "Les stages d'été sont une expérience formidable. Les instructeurs sont très qualifiés et bienveillants avec les enfants."
-                    </p>
-                    <p class="testimonial-author">— Jean-Marc, Parent d'élève</p>
+                <div class="product-card">
+                    <div class="product-icon">🏇</div>
+                    <h3>Leçons d'Équitation</h3>
+                    <p>Cours collectifs ou individuels pour tous les niveaux, de l'initiation au perfectionnement en CSO, CCE ou dressage.</p>
+                    <a href="#contact" class="card-link">En Savoir Plus →</a>
                 </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p class="testimonial-text">
-                        "Les concours organisés au Domaine de Bargues sont bien gérés et conviviauxl. Nous y revenons chaque année avec plaisir."
-                    </p>
-                    <p class="testimonial-author">— Sophie & Emma, Cavalière CSO</p>
+                <div class="product-card">
+                    <div class="product-icon">📅</div>
+                    <h3>Stages & Formations</h3>
+                    <p>Stages intensifs pendant les vacances scolaires et formations spécialisées avec des instructeurs expérimentés.</p>
+                    <a href="#contact" class="card-link">En Savoir Plus →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🏆</div>
+                    <h3>Concours Équestres</h3>
+                    <p>Concours régulièrement organisés au Domaine : CSO, dressage, cross, et compétitions clubs pour tous les niveaux.</p>
+                    <a href="#contact" class="card-link">En Savoir Plus →</a>
                 </div>
             </div>
         </div>
@@ -195,11 +165,11 @@
                 <div class="contact-info">
                     <div class="info-item">
                         <h3>📍 Localisation</h3>
-                        <p>Domaine de Bargues<br>Région Vallée de la Loire, France</p>
+                        <p>Domaine de Bargues<br>1170 route de Bargues<br>40 090 Lucbardez et Bargues, France</p>
                     </div>
                     <div class="info-item">
                         <h3>📞 Coordonnées</h3>
-                        <p>Téléphone: +33 (0)3 XXXX XXXX<br>Email: contact@domainedebargues.com</p>
+                        <p>Téléphone: +33 (0)6 22 07 27 17<br>Email: domainedebargues@gmail.com</p>
                     </div>
                     <div class="info-item">
                         <h3>⏰ Horaires</h3>
@@ -242,9 +212,15 @@
                 <div class="footer-section">
                     <h4>Nous Suivre</h4>
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook">f</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="https://www.facebook.com/sasequiprogress" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg>
+                        </a>
+                        <a href="https://www.instagram.com/domaine_de_bargues/" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg>
+                        </a>
+                        <a href="https://www.youtube.com/@domainedebargues3306" aria-label="Youtube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg>
+                        </a>
                     </div>
                 </div>
             </div>
