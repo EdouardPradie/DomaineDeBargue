@@ -1,0 +1,90 @@
+
+Bleu foncé
+#01263f
+Bleu marine
+#016793
+bleu clair
+#51a3cf
+bleu ciel
+#bfe0f3
+violet
+#550356
+Magenta
+#ee297a
+Rose
+#fd86a6
+Blanc cassé
+#f7fcff
+
+Hello, On va refacto le site vitrine du domaine de bargue.
+Pour ça on va ce baser sur les infos qu'il y a sur le site de base : https://domainedebargues.com/
+Je vais t'imposer certaine chose:
+ - utilise la font bubblegum
+ - utiliser toute cette charte graphique: Bleu foncé #01263f, Bleu marine #016793, bleu clair #51a3cf, bleu ciel #bfe0f3, violet #550356, Magenta #ee297a, Rose #fd86a6, Blanc cassé #f7fcff
+ - écrit uniquement en anglais le code mais le texte du site en anglais.
+ - Code en HTML/CSS/JS
+ - Fais une CI qui update la github pages
+Si tu as besoin d'info suplémentaire ou si tu n'arrives pas a accéder au site demande moi d'autre info.
+
+
+Phase 1: Project Setup
+Initialize HTML/CSS/JS project structure
+Create directory structure: /index.html, /styles/, /scripts/, /images/, /assets/
+Set up GitHub Pages configuration in repository settings
+Phase 2: Design System Implementation
+Define CSS variables for the color palette:
+Dark blue: #01263f
+Navy: #016793
+Light blue: #51a3cf
+Sky blue: #bfe0f3
+Purple: #550356
+Magenta: #ee297a
+Pink: #fd86a6
+Off-white: #f7fcff
+Import Bubblegum font from Google Fonts
+Create base CSS styles with consistent typography and spacing
+Phase 3: Website Structure
+Create the following main sections:
+
+Header/Navigation: Logo, responsive menu, contact info
+Hero Section: Eye-catching banner with call-to-action
+About Section: Story of the domain/estate
+Products/Services: Showcase offerings (wine, accommodation, events, etc.)
+Gallery/Visual Content: High-quality images
+Testimonials/Reviews: Social proof
+Contact Section: Contact form, location map, hours
+Footer: Links, copyright, social media
+Phase 4: Responsive Design
+Mobile-first approach
+CSS Grid/Flexbox for layout
+Media queries for breakpoints (mobile, tablet, desktop)
+Hamburger menu for mobile navigation
+Phase 5: Interactivity
+Smooth scrolling navigation
+Form validation and submission
+Image gallery/carousel (if needed)
+Scroll animations
+Mobile menu toggle
+Phase 6: CI/CD Setup
+Create .github/workflows/deploy.yml workflow
+Automatically build and deploy to GitHub Pages on push to main branch
+Ensure static files are properly served
+Phase 7: Optimization & Testing
+SEO optimization (meta tags, alt text)
+Performance optimization (image compression, minification)
+Cross-browser testing
+Mobile responsiveness verification
+Content Strategy (English)
+Since I cannot access the current site, I'll create a template structure that you can populate with actual content:
+
+Compelling description of the domain
+Products/services offered
+Contact information
+Location details
+Any specific content from the original site </plan>
+I cannot access the current website due to network restrictions. Can you provide me with:
+
+Content details: What specific information should be on the website? (e.g., wine products, accommodation, events, history, etc.)
+Images/Assets: Do you have a folder with images, logos, or other assets?
+Specific sections: What exact pages/sections should the website have?
+Text content: Any specific text, product descriptions, or information from the original site you'd like me to include?

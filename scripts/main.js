@@ -90,9 +90,8 @@ if (contactForm) {
             return;
         }
 
-        // Simulate form submission (in real use, this would send to a server)
-        console.log('Form submitted:', { name, email, message });
-        
+        window.location.href = `mailto:domainedebargues@gmail.com?subject=Contact%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom:%20${encodeURIComponent(email)}`;
+
         // Show success message
         const submitButton = contactForm.querySelector('button[type="submit"]');
         const originalText = submitButton.textContent;
@@ -247,7 +246,7 @@ if ('IntersectionObserver' in window) {
 // ============================================
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Domaine de Bargue website loaded');
-    
+
     // Log page performance
     if (window.performance) {
         window.addEventListener('load', function() {
@@ -289,7 +288,7 @@ formInputs.forEach(input => {
     if (input.tagName === 'TEXTAREA') {
         const maxLength = 500;
         input.maxLength = maxLength;
-        
+
         input.addEventListener('input', function() {
             const charCount = this.value.length;
             const remaining = maxLength - charCount;

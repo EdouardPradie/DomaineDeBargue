@@ -159,13 +159,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Domaine de Bargue
-
-## 📧 Contact
-
-For inquiries about the website or domain:
-- Email: info@domainedebargue.com
-- Phone: +33 (0)3 XXXX XXXX
+Domaine de Bargues
 
 ## 🎯 Future Enhancements
 
