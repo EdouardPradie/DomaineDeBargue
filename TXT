@@ -16,7 +16,7 @@ Rose
 Blanc cassé
 #f7fcff
 
-Hello, On va refacto le site vitrine du domaine de bargue.
+Hello, On va refacto le site vitrine du domaine de bargues.
 Pour ça on va ce baser sur les infos qu'il y a sur le site de base : https://domainedebargues.com/
 Je vais t'imposer certaine chose:
  - utilise la font bubblegum

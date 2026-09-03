@@ -1,6 +1,6 @@
-# Domaine de Bargue - Website
+# Domaine de Bargues - Website
 
-A modern, responsive website for Domaine de Bargue showcasing French wine, hospitality, and countryside elegance.
+A modern, responsive website for Domaine de Bargues showcasing French wine, hospitality, and countryside elegance.
 
 ## 🎨 Design System
 
@@ -21,7 +21,7 @@ A modern, responsive website for Domaine de Bargue showcasing French wine, hospi
 ## 📁 Project Structure
 
 ```
-DomaineDeBargue/
+DomaineDeBargues/
 ├── index.html                 # Main HTML file
 ├── styles/
 │   ├── main.css              # Main stylesheet with design system

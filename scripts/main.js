@@ -1,4 +1,4 @@
-/* Domaine de Bargue - Main JavaScript */
+/* Domaine de Bargues - Main JavaScript */
 
 // ============================================
 // Mobile Menu Toggle
@@ -245,7 +245,7 @@ if ('IntersectionObserver' in window) {
 // Page Load Analytics
 // ============================================
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Domaine de Bargue website loaded');
+    console.log('Domaine de Bargues website loaded');
 
     // Log page performance
     if (window.performance) {
